@@ -14,13 +14,14 @@ $(document).ready(function() {
     
     
     $("h2").click(function() {
-      $("#box").css("background-color", "#abd9ff");
+      $("#box").css("background-color", "#b5ffe0");
     });
     
     $("#reset-circle").click(function() {
         $("#box").hide().css({
           "width": "200px",
-          "background-color": "#b5ffe0"
+          "height": "200px",
+          "background-color": "#abd9ff"
     });
     });
     
